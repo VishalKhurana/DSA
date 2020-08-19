@@ -24,7 +24,7 @@ void insert(string str)
         int idx=ch-'a';
         if(cur->child[idx]==NULL)
         {
-            cur->child[idx]=new trie();
+            cur->child[idx]=new trie();        
 
         }
         cur=cur->child[idx];
