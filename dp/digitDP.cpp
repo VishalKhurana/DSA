@@ -61,8 +61,8 @@ int main()
     int ans1=sumOfDigits(0,0,digitsA,1);
     memset(dp,-1,sizeof(dp));
     int ans2=sumOfDigits(0,0,digitsB,1);
-  
-    cout<<(ans1-ans2)<<endl;
+ // cout<<ans1<<" "<<ans2<<endl;
+    cout<<(ans2-ans1)<<endl;
 
 
 
